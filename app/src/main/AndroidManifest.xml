@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quiz">
+        <activity
+            android:name=".result_hist"
+            android:exported="false" />
+        <activity
+            android:name=".Acceuil_science"
+            android:exported="false" />
+        <activity
+            android:name=".Acceuil_math"
+            android:exported="false" />
+        <activity
+            android:name=".Acceuil_histoire"
+            android:exported="false" />
+        <activity
+            android:name=".Accueil_informatique"
+            android:exported="false" />
+        <activity
+            android:name=".resultat_science"
+            android:exported="false" />
+        <activity
+            android:name=".science10"
+            android:exported="false" />
+        <activity
+            android:name=".science9"
+            android:exported="false" />
+        <activity
+            android:name=".science8"
+            android:exported="false" />
+        <activity
+            android:name=".science7"
+            android:exported="false" />
+        <activity
+            android:name=".science6"
+            android:exported="false" />
+        <activity
+            android:name=".science5"
+            android:exported="false" />
+        <activity
+            android:name=".science4"
+            android:exported="false" />
+        <activity
+            android:name=".science3"
+            android:exported="false" />
+        <activity
+            android:name=".science2"
+            android:exported="false" />
+        <activity
+            android:name=".science1"
+            android:exported="false" />
+        <activity
+            android:name=".science"
+            android:exported="false" />
+        <activity
+            android:name=".result_math"
+            android:exported="false" />
+        <activity
+            android:name=".math10"
+            android:exported="false" />
+        <activity
+            android:name=".math9"
+            android:exported="false" />
+        <activity
+            android:name=".math8"
+            android:exported="false" />
+        <activity
+            android:name=".math7"
+            android:exported="false" />
+        <activity
+            android:name=".math6"
+            android:exported="false" />
+        <activity
+            android:name=".math5"
+            android:exported="false" />
+        <activity
+            android:name=".math4"
+            android:exported="false" />
+        <activity
+            android:name=".math3"
+            android:exported="false" />
+        <activity
+            android:name=".math2"
+            android:exported="false" />
+        <activity
+            android:name=".math1"
+            android:exported="false" />
+        <activity
+            android:name=".math"
+            android:exported="false" />
+        <activity
+            android:name=".result_computer"
+            android:exported="false" />
+        <activity
+            android:name=".computer10"
+            android:exported="false" />
+        <activity
+            android:name=".computer9"
+            android:exported="false" />
+        <activity
+            android:name=".computer8"
+            android:exported="false" />
+        <activity
+            android:name=".computer7"
+            android:exported="false" />
+        <activity
+            android:name=".computer6"
+            android:exported="false" />
+        <activity
+            android:name=".computer5"
+            android:exported="false" />
+        <activity
+            android:name=".computer4"
+            android:exported="false" />
+        <activity
+            android:name=".computer3"
+            android:exported="false" />
+        <activity
+            android:name=".computer2"
+            android:exported="false" />
+        <activity
+            android:name=".computer1"
+            android:exported="false" />
+        <activity
+            android:name=".computer"
+            android:exported="false" />
+        <activity
+            android:name=".hist4"
+            android:exported="false" />
+        <activity
+            android:name=".hist3"
+            android:exported="false" />
+        <activity
+            android:name=".hist2"
+            android:exported="false" />
+        <activity
+            android:name=".hist"
+            android:exported="false" />
+        <activity
+            android:name=".hist1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

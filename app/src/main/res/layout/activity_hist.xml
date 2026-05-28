@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".hist">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wave_background"
+        android:layout_marginBottom="455dp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wrongans"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-50dp" />
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+
+        <EditText
+            android:id="@+id/pseudo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="180dp"
+            android:hint="Saisir votre nom"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="text"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/suivant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/button_white"
+        android:hint="Saisir votre nom"
+        android:text="Suivant"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/black"
+        app:backgroundTint="#673ab7" />
+</RelativeLayout>
+
+
