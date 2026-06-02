@@ -18,7 +18,7 @@ Application Android de quiz développée en Java permettant aux utilisateurs de 
 
 ## Installation
 
-1. Cloner le dépôt 
+1. Cloner le dépôt git clone https://github.com/Quiz.git
 
 2. Ouvrir le projet dans Android Studio.
 
